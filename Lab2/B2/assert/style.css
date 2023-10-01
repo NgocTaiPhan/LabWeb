@@ -1,0 +1,182 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    /* text-align: center;
+    justify-content: center;
+    align-items: center; */
+    margin: 0;
+}
+
+.header>.container {
+
+
+    background-color: rgba(0, 0, 0, 0.1);
+    display: flex;
+    margin-bottom: 20px;
+    padding: 20px 0;
+}
+
+.logoPage {
+
+    margin-right: auto;
+    margin-left: 20%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyTicketsBtn {
+    margin-left: auto;
+    margin-right: 20%;
+
+    background-color: orangered;
+
+}
+
+.buyTicketsBtn>a {
+    text-decoration: none;
+    padding: 15px 20px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buyTicketsBtn>a>span {
+
+    color: white;
+    font-weight: 600;
+    /* font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; */
+
+
+
+
+}
+/* .containerss{
+    position: relative;
+}
+.right_socials {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+#navbar-collapse-02 {
+    position: absolute;
+    top: 0;
+    left: 0;
+} */
+.containerss {
+    display: inline-flex; /* Sử dụng flexbox để căn chỉnh nội dung bên trong */
+    justify-content: space-between; /* Căn chỉnh bên trái và bên phải */
+    align-items: center; /* Căn chỉnh theo chiều dọc giữa các phần tử */
+}
+
+.right_socials {
+    order: 1; /* Đặt thứ tự hiển thị sau, để nằm bên phải */
+    display: inline;
+}
+
+#navbar-collapse-02 {
+    order: 0; /* Đặt thứ tự hiển thị trước, để nằm bên trái */
+}
+
+
+
+#section_header_1 {}
+
+#section_header_1>.header_nav_1>.container {
+    margin: 0;
+
+    background-color: white;
+    display: inline-block;
+
+}
+
+
+
+
+
+.nav>li>a {
+    text-decoration: none;
+    padding: 10px;
+    color: rgba(0, 0, 0, 0.4);
+    font-weight: 600
+}
+
+
+ul,
+li {
+    list-style: none;
+}
+
+#section_header_1>.header_nav_1>.container {
+
+
+
+
+    padding: 20px;
+    margin: 20px;
+}
+
+
+
+.carousel {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+  }
+  
+  .carousel-inner {
+    position: relative;
+    width: 100%;
+  }
+  
+  .carousel-item {
+    display: none;
+  }
+  
+  .carousel-item.active {
+    display: block;
+  }
+  
+  .carousel-item img {
+    width: 100%;
+    height: auto;
+  }
+  
+  .carousel-caption {
+    position: absolute;
+    background: rgba(0, 0, 0, 0.7);
+    color: #fff;
+    padding: 20px;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+  }
+  
+  .carousel-control {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    transition: background 0.2s ease;
+  }
+  
+  .carousel-control:hover {
+    background: rgba(0, 0, 0, 0.7);
+  }
+  
+  .carousel-control.left {
+    left: 20px;
+  }
+  
+  .carousel-control.right {
+    right: 20px;
+  }
+  
+
