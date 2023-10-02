@@ -208,3 +208,275 @@ li {
     height: 20px;
     border: 1px white solid;
 }
+
+#section_gym_4 {
+
+
+
+    margin: 20% 10%;
+}
+
+/* .sixteen.columns.gym_life {
+
+    display: flex;
+
+
+} */
+
+.top_padding {
+    display: flex;
+    flex-wrap: nowrap;
+    /* Không cho phép các cột trải ra ngoài */
+    justify-content: space-between;
+    /* Canh giữa các cột */
+}
+
+.one-third {
+    flex: 1;
+    /* Mỗi cột chiếm 1/3 chiều rộng của container */
+    margin: 0 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.img_gym_st img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 100%;
+    /* margin-bottom: 15px; */
+}
+
+.text_gym_style {
+    text-align: center;
+}
+
+
+
+.part_st {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.gym_st,
+.gym_text {
+
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+
+    /* width: 80%; */
+}
+
+.gym_st {
+    font-weight: 600;
+    margin: 15px 0;
+}
+
+.gym_text {
+    width: 50%;
+    margin: 20px auto;
+}
+
+.text_gym_style {
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    left: 0;
+}
+
+.link_3_btn {
+    /* display: block; */
+    text-align: center;
+    background-color: orange;
+    padding: 10px 20px;
+    border-radius: 5px;
+}
+
+.link_3_btn .pix_text {
+
+
+
+
+    text-decoration: none;
+    color: #fff;
+}
+
+#section_intro_title {
+
+    padding: 20% 10%;
+    background-color: rgba(0, 0, 0, 0.1);
+
+
+}
+
+#section_intro_title>.container {
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+    margin: 0 auto;
+}
+
+#section_intro_title .container .one-third {
+    flex: 1;
+    /* Mỗi cột chiếm 1/3 chiều rộng của container */
+    margin: 0 10px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    border: 1px rgba(0, 0, 0, 0.2) solid;
+    background-color: #fff;
+}
+
+.big_title,
+.light_gray.editContent,
+.flat_pricing_list.light_gray>li {
+
+
+    margin: 10% auto;
+}
+
+.flat_pricing {
+
+    background-color: #fff;
+    height: 400px;
+}
+
+.big_title>strong {
+    font-size: 50px;
+
+}
+
+.big_title.blue_text {
+    color: #6c8dfa;
+}
+
+.big_title.orange {
+    color: orangered;
+}
+
+/* .active_bg_open.pix_button>span {
+
+    padding: 10px 20px;
+
+
+
+} */
+
+.active_bg_open.pix_button {
+    text-decoration: none;
+}
+
+.btn_normal.btn_big.orange_bg>span,
+.btn_normal.btn_big.blue_bg>span {
+
+    text-decoration: none;
+    padding: 20px 30px;
+
+
+    color: #fff;
+    font-weight: 600;
+
+
+
+}
+
+.btn_normal.btn_big.orange_bg>span {
+    background-color: orangered;
+}
+
+.btn_normal.btn_big.blue_bg>span {
+    background-color: #6c8dfa;
+}
+
+#section_party_3,
+.confirm_page.confirm_page_15.pix_builder_bg {
+    background-color: #000;
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+
+
+
+
+
+
+
+
+#section_party_3,
+.subscribe.pix_builder_bg {
+    /* width: 40%; */
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+}
+
+#section_party_3 .headtext_style span {
+
+
+    font-size: 30px;
+}
+.subscribe.pix_builder_bg {
+    background-color: #363636;
+    width: 100%;
+    padding: 10% 0;
+}
+
+#section_party_3 .container {
+    border: 0.5px rgb(85, 85, 85) solid;
+    width: 20%;
+    background-color: #000;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+
+
+
+#section_party_3 .contact_st {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    width: 100%;
+}
+
+#section_party_3 .contact_st form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#section_party_3 .contact_st input,
+#section_party_3 .contact_st button {
+    margin: 10px;
+}
+
+#section_party_3 .contact_st input {
+    padding: 10px 40px;
+}
+
+#section_party_3 .contact_st button {
+    padding: 10px 36px;
+}
+
+#section_party_3 .contact_st button {
+    background-color: #3498db;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+}
+
+#section_party_4 {
+    background-color: black;
+
+}
