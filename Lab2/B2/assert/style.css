@@ -6,6 +6,10 @@
     margin: 0;
 }
 
+/* html{
+    margin-bottom: 0;
+} */
+
 .header>.container {
 
 
@@ -88,18 +92,25 @@
 
 
 
-#section_header_1 {}
+#section_header_1 {
+    position: relative;
+}
 
 #section_header_1>.header_nav_1>.container {
     margin: 0;
 
     background-color: white;
-    display: inline-block;
+    /* display: inline-block; */
 
 }
 
 
-
+.nav.navbar-nav.navbar-left {
+    position: absolute;
+    display: flex;
+    left: 15%;
+    top: 40%;
+}
 
 
 .nav>li>a {
@@ -213,7 +224,7 @@ li {
 
 
 
-    margin: 20% 10%;
+    margin: 5% 10%;
 }
 
 /* .sixteen.columns.gym_life {
@@ -306,7 +317,8 @@ li {
 
 #section_intro_title {
 
-    padding: 20% 10%;
+    padding: 10px 20% 30px 20%;
+
     background-color: rgba(0, 0, 0, 0.1);
 
 
@@ -345,8 +357,11 @@ li {
 
     background-color: #fff;
     height: 400px;
+    /* marginle */
 }
-
+ul.flat_pricing_list.light_gray{
+    margin-left: -40px;
+}
 .big_title>strong {
     font-size: 50px;
 
@@ -377,6 +392,7 @@ li {
 
     text-decoration: none;
     padding: 20px 30px;
+    border-radius: 5px;
 
 
     color: #fff;
@@ -392,6 +408,10 @@ li {
 
 .btn_normal.btn_big.blue_bg>span {
     background-color: #6c8dfa;
+}
+
+#section_party_3 {
+    position: relative;
 }
 
 #section_party_3,
@@ -425,6 +445,7 @@ li {
 
     font-size: 30px;
 }
+
 .subscribe.pix_builder_bg {
     background-color: #363636;
     width: 100%;
@@ -433,7 +454,7 @@ li {
 
 #section_party_3 .container {
     border: 0.5px rgb(85, 85, 85) solid;
-    width: 20%;
+    width: 40%;
     background-color: #000;
     margin: 0 auto;
     padding: 20px;
@@ -443,30 +464,65 @@ li {
 
 
 #section_party_3 .contact_st {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
+    /* display: flex;
+    flex-direction: column; */
+    /* align-items: center;
+    text-align: center; */
     width: 100%;
+    height: 500px;
+    position: relative;
 }
 
 #section_party_3 .contact_st form {
-    display: flex;
-    flex-direction: column;
+    /* display: flex;
+    flex-direction: column; */
     align-items: center;
 }
 
 #section_party_3 .contact_st input,
 #section_party_3 .contact_st button {
+    position: absolute;
     margin: 10px;
+    left: 0;
+    right: 0;
 }
 
-#section_party_3 .contact_st input {
-    padding: 10px 40px;
+p.subtext_style {
+
+    /* color: #fff; */
+
+    position: absolute;
+    top: 40%;
+    /* width: 300px; */
+    left: 0;
+    right: 0;
 }
+
+#section_party_3 .contact_st input#name {
+
+
+    bottom: 40%;
+    border-radius: 5px;
+    padding: 20px 50px;
+    /* padding: 10px 40px; */
+
+}
+
+#section_party_3 .contact_st input#email {
+
+    border-radius: 5px;
+    padding: 20px 50px;
+    bottom: 20%;
+
+    /* padding: 10px 40px; */
+
+}
+
 
 #section_party_3 .contact_st button {
-    padding: 10px 36px;
+    border-radius: 5px;
+    padding: 20px 50px;
+    bottom: 0;
 }
 
 #section_party_3 .contact_st button {
@@ -476,7 +532,57 @@ li {
     cursor: pointer;
 }
 
+#section_party_3 span.pix_text {
+    position: absolute;
+    left: 0;
+    right: 0;
+    padding-top: 80px;
+}
+
+
+
 #section_party_4 {
     background-color: black;
+    height: 50px;
+    position: relative;
 
+}
+
+ul.bottom-icons {
+    position: absolute;
+    float: right;
+    display: flex;
+    margin-top: -20px;
+}
+
+.likes_st {
+    position: absolute;
+    right: 30%;
+    top: 25%;
+    /* float: right; */
+}
+
+
+ul.bottom-icons {
+    right: 10%;
+    /* top: 0; */
+    bottom: 10%;
+}
+
+img.social_icon {
+    padding: 0 10px;
+}
+
+#section_party_4 .rights_st .pixfort_st {
+
+
+    color: #6c8dfa;
+    font-weight: 600;
+}
+
+#section_party_4 .rights_st {
+    position: absolute;
+    left: 10%;
+    top: 25%;
+    /* bottom: 0; */
 }
