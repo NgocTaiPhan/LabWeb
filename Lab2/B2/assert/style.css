@@ -19,7 +19,7 @@
     padding: 20px 0;
 }
 
-.logoPage {
+.eight.columns.alpha.mobile_center {
 
     margin-right: auto;
     margin-left: 20%;
@@ -359,9 +359,11 @@ li {
     height: 400px;
     /* marginle */
 }
-ul.flat_pricing_list.light_gray{
+
+ul.flat_pricing_list.light_gray {
     margin-left: -40px;
 }
+
 .big_title>strong {
     font-size: 50px;
 
