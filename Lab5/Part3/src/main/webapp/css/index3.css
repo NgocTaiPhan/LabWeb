@@ -1,0 +1,47 @@
+.input-group{
+    padding-top: 10px;
+}
+#text {
+    color: #24e300;
+}
+#text1{
+    display: flex;
+}
+#genner{
+    margin-left: 210px;
+    color: #24e300;
+}
+
+#double1{
+    display: flex;
+    width: 50%;
+}
+#double2{
+    width: 50%;
+    display: flex;
+}
+#double{
+    display: flex;
+}
+#hedear{
+    display: flex;
+}
+#hedear #card{
+    width: 50%;
+}
+#hedear #date{
+    padding-top: 10px;
+    width: 50%;
+    display: flex;
+}
+#boder{
+    padding: 10px;
+    border: 10px solid lightslategray;
+    border-radius: 5px;
+}
+#accept{
+    display: flex;
+}
+#i{
+    padding-top: 30px;
+}
