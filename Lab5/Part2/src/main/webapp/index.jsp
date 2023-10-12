@@ -14,7 +14,7 @@
 <div id="contact-us">
     <div class="container ">
         <div class="row justify-content-around">
-            <form action="" class="col-md-6 bg-light " id="boder">
+            <form action="login" class="col-md-6 bg-light " id="boder">
                 <div id="text" class="py-3 font-weight-bold ">Account</div>
                 <div class="input-group mb-4">
                     <div class="input-group-prepend">
