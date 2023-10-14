@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 4 lab 4</title>
+    <style>
+        textarea,
+        input,
+        button {
+            display: block;
+            margin: 10px;
+        }
+    </style>
+</head>
+
+<body>
+    <textarea id="paragraph" rows="10" cols="50" placeholder="Nhập A"></textarea>
+    <input id="line" type="text" placeholder="Nhập B">
+    <button onclick="countOccurrences()">Số lần B xuất hiện trong A</button>
+    <div id="result"></div>
+    <script>
+        function countOccurrences() {
+            var paragraph = document.getElementById("paragraph").value;
+            var line = document.getElementById("line").value;
+
+            var regex = new RegExp(line, "g");
+            var count = (paragraph.match(regex) || []).length;
+
+            var result = document.getElementById("result");
+            result.innerHTML = "Số lần  " + line + " xuất hiện " + " :" + count;
+        }
+
+    </script>
+</body>
+
+</html>
