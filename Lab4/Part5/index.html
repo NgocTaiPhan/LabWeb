@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="vi">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 5 lab 4</title>
+
+</head>
+
+<body>
+    <div class="main">
+
+        <img id="rotatingImage"
+            src="https://dungcucamtaybosch.com/images/pro/may-khoan-van-vit-dong-luc-dung-pin-stanley-sch12s2_2264.jpg"
+            alt="Rotating Image">
+    </div>
+    <script>
+        var angle = 0;
+
+        function rotateImage() {
+            var image = document.getElementById("rotatingImage");
+            angle += 15;
+            image.style.transform = "rotate(" + angle + "deg)";
+        }
+
+        setInterval(rotateImage, 2000); 
+    </script>
+</body>
+
+</html>
