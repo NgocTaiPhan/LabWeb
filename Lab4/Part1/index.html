@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bài 1 Lab 4</title>
+    <style>
+        #main {
+            width: 100%;
+            height: 100vh;
+        }
+
+        button {
+            padding: 10px 20px;
+            font-size: 16px;
+            margin: 10px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+
+<body>
+    <div id="main">
+        <button id="btnChangeBackGroundColor" onclick="changeBackgroundColor()">Thay đổi màu nền</button>
+    </div>
+
+    <script>
+        const colors = ['red', 'green', 'blue', 'yellow'];
+        let currentIndex = 0;
+
+        function changeBackgroundColor() {
+            if (currentIndex>colors.length) {
+                currentIndex = 0;
+                document.body.style.backgroundColor = colors[currentIndex];
+            }else{
+                document.body.style.backgroundColor = colors[currentIndex];
+
+                currentIndex = (currentIndex + 1) ;
+            }
+        }
+    </script>
+</body>
+</html>
